@@ -1,0 +1,19 @@
+package com.algo.prcatice.whatsapp;
+
+public class Validator {
+
+	public static boolean validateNumberOfGroups(int groups) throws NumberOfGroupsExceedException {
+		boolean flag = false;
+
+		if (groups <= 5) {
+			flag = true;
+		} else {
+			// fill in the code
+			throw new NumberOfGroupsExceedException();
+		}
+
+		return flag;
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.algo.practice.exception;
+
+public class PasswordMismatchException extends Exception {
+
+	private String message;
+
+	public PasswordMismatchException(String message) {
+		this.message = message;
+	}
+
+	public String getMessage() {
+		return this.message;
+	}
+
+}

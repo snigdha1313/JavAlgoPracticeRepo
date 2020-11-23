@@ -1,0 +1,19 @@
+package com.algo.prcatice.whatsapp;
+
+public class NumberOfGroupsExceedException {
+
+	private String message;
+
+	public NumberOfGroupsExceedException() {
+		throw new "NumberOfGroupsExceedException";
+	}
+
+	public NumberOfGroupsExceedException(String message) {
+		super();
+		this.message = message;
+	}
+	
+	
+	
+	
+}

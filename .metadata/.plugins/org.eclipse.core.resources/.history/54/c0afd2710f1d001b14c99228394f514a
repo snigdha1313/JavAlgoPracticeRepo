@@ -1,0 +1,10 @@
+package com.src.code;
+
+import java.util.HashMap;
+import java.util.Map;
+
+@SuppressWarnings("unchecked")//Do not delete this line
+public class FancyShop
+{
+   private Map<Integer,String> products = new HashMap<Integer,String>();
+}

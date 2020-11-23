@@ -1,0 +1,15 @@
+package com.algo.prcatice.whatsapp;
+
+public class UserInterface {
+
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the mode of message(text,video, photo)");
+String mode=sc.next();
+System.out.println("Enter number of groups");
+int groups = sc.nextInt();
+
+             //Fill the code here
+    }
+}
+

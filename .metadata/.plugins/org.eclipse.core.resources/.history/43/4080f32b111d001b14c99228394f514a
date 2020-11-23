@@ -1,0 +1,10 @@
+package com.src.code;
+
+import java.util.Scanner;
+
+public class VowelCheck {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+	}
+}

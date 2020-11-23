@@ -1,0 +1,32 @@
+package com.algo.practice.ballsbowled;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PlayerB {
+
+	private List<Integer> playerList = new ArrayList<Integer>();
+
+	public PlayerB() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public List<Integer> getPlayerList() {
+		return playerList;
+	}
+
+	public void setPlayerList(List<Integer> playerList) {
+		this.playerList = playerList;
+	}
+	
+	public void addOverDetails(int over) {
+		playerList.add(over)
+	}
+	
+	public int getNoOfBowlsBowled() {
+		return 0;
+	}
+	
+	
+}

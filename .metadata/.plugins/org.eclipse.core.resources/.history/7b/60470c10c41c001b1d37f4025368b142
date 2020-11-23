@@ -1,0 +1,25 @@
+package com.algo.practice.whatsapp;
+
+import java.util.Scanner;
+
+import com.algo.practice.whatsapp.Validator;;
+
+public class UserInterface {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		boolean quit = false;
+		
+		do {
+			System.out.println("Enter the mode of message(text,video, photo)");
+			String mode = sc.next();
+			System.out.println("Enter number of groups");
+			int groups = sc.nextInt();
+
+			// Fill the code here
+			
+			validateNumberOfGroups();
+		}while(quit==true);
+		
+	}
+}

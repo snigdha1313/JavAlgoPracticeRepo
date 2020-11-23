@@ -1,0 +1,23 @@
+package com.src.code;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+@SuppressWarnings("unchecked")//Do not delete this line
+public class FancyShop
+{
+   private Map<Integer,String> products = new HashMap<Integer,String>();
+   
+   
+   public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.print("Enter the no of Face Creams you want to store:");
+		int totalProductcount= sc.nextInt();
+		sc.close();
+		while(totalProductcount>0) {
+			int i = 1;
+			System.out.println("Enter the key "+i);
+		}
+	}
+}
