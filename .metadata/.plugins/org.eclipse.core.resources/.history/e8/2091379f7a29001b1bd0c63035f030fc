@@ -1,5 +1,0 @@
-package com.algo.practice.exception;
-
-public class PasswordMismatchException {
-
-}

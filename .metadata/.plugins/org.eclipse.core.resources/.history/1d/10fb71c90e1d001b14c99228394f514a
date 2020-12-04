@@ -1,7 +1,0 @@
-package com.src.code;
-
-@SuppressWarnings("unchecked")//Do not delete this line
-public class FancyShop
-{
-   
-}
