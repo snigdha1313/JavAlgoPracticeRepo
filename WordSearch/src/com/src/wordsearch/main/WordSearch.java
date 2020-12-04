@@ -10,22 +10,25 @@ public class WordSearch {
 		String firstString = sc.nextLine().toLowerCase();
 		System.out.println("Enter the string to be searched:");
 		String secondString = sc.nextLine().toLowerCase();
-		if (firstString != null && secondString != null) {
+		if (firstString != null) {
 			for (char c : firstString.toCharArray()) {
 				if (!Character.toString(c).matches("^[ a-zA-z]+$")) {
 					System.out.println("String should not contain " + c);
+					break;
 				}
 			}
+		}
+		if (secondString != null) {
 			for (char c : secondString.toCharArray()) {
 				if (!Character.toString(c).matches("^[ a-zA-z]+$")) {
 					System.out.println("String should not contain " + c);
+					break;
 				}
 			}
 		}
 
 		int startIndex = firstString.indexOf(secondString);
 		int lastIndex = firstString.lastIndexOf(secondString);
-		System.out.println(startIndex + " " + lastIndex);
 		if (startIndex == lastIndex) {
 			if (startIndex == -1) {
 				System.out.println(secondString + " not found");
@@ -33,6 +36,6 @@ public class WordSearch {
 				System.out.println(startIndex + (startIndex + secondString.length() - 1));
 			}
 		} else
-			System.out.println(secondString + " is present twice");
+			System.out.println(secondString + " is found more than once");
 	}
 }
