@@ -11,6 +11,7 @@ public class Main {
 			System.out.println(input + " is a " + input.length() + " digit input");
 			return;
 		}
+
 		char[] charArray = input.toCharArray();
 		boolean valid = false;
 		for (int i = 0; i < input.length(); i++) {
