@@ -14,7 +14,7 @@ public class WordSearch {
 			for (char c : firstString.toCharArray()) {
 				if (!Character.toString(c).matches("^[ a-zA-z]+$")) {
 					System.out.println("String should not contain " + c);
-					break;
+					return;
 				}
 			}
 		}
@@ -22,7 +22,7 @@ public class WordSearch {
 			for (char c : secondString.toCharArray()) {
 				if (!Character.toString(c).matches("^[ a-zA-z]+$")) {
 					System.out.println("String should not contain " + c);
-					break;
+					return;
 				}
 			}
 		}
